@@ -1,0 +1,408 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alike');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+h1{
+  font-family: 'Alike';
+}
+
+h2{
+  font-family: 'Alike';
+  font-size: 30px;
+  color: #1078B4;
+  padding-top: 10%;
+
+}
+h4{
+  font-family: 'Alike';
+  color: #1078B4;
+}
+.hed{
+  color: #807F95;
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.fonsize{
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Source sans pro';
+}
+
+/* h5{
+  font-family: 'Alike';
+  font-size: 20px;
+  float:left;
+} */
+.navbar-nav > li{
+  margin-left:20px;
+  margin-right:20px;
+  display: inline-block;
+}
+
+/* .navbar 
+{ padding-top: 0rem; padding-bottom: 0rem; color: #1078B4;
+ } */
+
+.navbar-nav > .active {
+  color:#1078B4!important;  **// THIS DOES NOT WORK**
+  background-color: chartreuse; **//THIS WORKS**
+}
+.nav-item > a:hover {
+  color:#1078B4!important;
+}
+.page-footer {
+ 
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#0F5076;
+  color: white;
+  padding-top: 4%;
+  margin-top: -5%;
+  
+}
+.social {
+padding: 10px;
+max-width:60px;
+}
+
+.responsive {
+width: 100%;
+height: auto;
+}
+
+.no-padding {
+padding-left: 0;
+padding-right: 0;
+}
+
+.container-fluid .content {
+position: absolute;
+bottom: 0;
+background:  rgba(15,80,118,100%); /* Black background with 0.5 opacity */
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+opacity: 0.6;
+}
+.circle{
+border-radius: 50%;
+width: 80%;
+padding-bottom: 25%;
+background:white;
+height: 90%;
+position: relative;
+box-shadow:  0 0 5px  #1078B4;
+}
+.circle1{
+border-radius: 50%;
+width: 75%;
+padding-bottom: 30%;
+background:white;
+height: 95%;
+
+box-shadow:  0 0 5px #1078B4;
+}
+.circle2{
+  border-radius: 50%;
+  width: 80%;
+  padding-bottom: 30%;
+  background:white;
+  height: 89%;
+  
+  box-shadow:  0 0 5px 	#1078B4;
+  }
+
+.box{
+width:10%;
+margin: auto;
+/* border: 1px solid #73AD21; */
+box-shadow:  0 0 10px 	#5DBCD2;
+}
+
+
+
+
+.flex-container {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+padding: 10px;
+}
+
+/* to center flex-items */
+.flex-item {
+ margin: auto;
+}
+
+.rect{  
+margin:0 0 20px;
+padding: 20px;
+/* border:2px solid #333; */
+width :100%;
+text-align:center;
+box-shadow:  0 0 2px  rgba(0,0,0,0.6);
+padding-top:4%;
+
+}
+.header{
+ margin:0 auto;
+ padding: 5px 10px;
+ width:90%;
+ /* border:2px solid #333; */
+ box-shadow:  0 0 5px  rgba(0,0,0,0.6);
+
+}
+
+li {
+/* width: 33.3%; */
+font-family:'Source Sans Pro', sans-serif; 
+}
+
+#small-img2 {
+padding-top: 10%;
+border: 0 none;
+display: inline-block;
+height: auto;
+max-width: 60%;
+vertical-align: middle;
+
+
+}
+.check{
+/* margin:0 0 20px; */
+padding: 20px;
+/* border:2px solid #333; */
+width :100%;
+text-align:center;
+}
+h3{
+text-align: left;
+margin-left: 19%;
+/* color:  */
+color: #1078B4;
+font-family: 'Alike';
+
+}
+
+.about{
+padding: 20%;
+margin-left: -20%;
+}
+
+.circle-img {
+width: 40%;
+margin-top: 10%;
+margin-left:-4%;
+text-align:center;
+}
+
+.skyblue{
+  background:#D8EDF9;
+  padding-bottom: -5%;
+}
+.new{
+  text-align:justify;
+  padding-top: 2%;
+  width: 100%;
+}
+.img-th{
+  position: absolute;
+  width: 15%;
+  /* height: 20%; */
+}
+
+@media(max-width:600px){
+  .img-th{
+    position: static;
+    width: 15%;
+ }
+}
+  @media(width:768px){
+    .img-th{
+      position: relative;
+      width: 15%;
+     }
+}
+@media(width:1024px){
+  .img-th{
+    width: 15%;
+   }
+}
+
+
+.fon{
+
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  
+}
+
+
+#sh{
+  text-align: left;
+  width: 100%;
+  padding-bottom:4%;
+  font-family:'Source Sans Pro', sans-serif;
+  position: relative;
+  margin-top:-20%;
+ 
+}
+#text{
+ /* padding-top:3%; */
+  text-align: center;
+}
+#c{
+  font-size: 90%;
+  text-align: center;
+}
+
+.cir-img {
+  width: 40%;
+  margin-top: 13%;
+  margin-left:0%;
+  
+  }
+
+  .circle2-img {
+    width: 22%;
+    margin-top: 35px;
+    margin-left:0%;
+    
+    }
+
+#cir1{
+    margin-right:2%;
+    font-size: 90%;
+    text-align: center;
+    font-family: 'Source sans pro';
+    margin-top: 3%;
+  }
+#cir{
+  margin-top:5%;
+  font-size:90%;
+  text-align: center;
+  font-family: 'Source sans pro';
+}
+.board {
+  width: 100%;
+  background-color:#FAFDFF;
+  
+  margin-top: 13%;
+  padding-bottom: -2%;
+}
+.board1{
+  width: 100%;
+  background-color:#FAFDFF;
+}
+.m{
+  font-family:'Source Sans Pro', sans-serif; 
+}
+#pa{
+  padding-left: -7%;
+  color: #1078B4;
+  font-size: 80%;
+  cursor: pointer;
+ 
+ font-weight: 900;
+ 
+}
+#pa1{
+  padding-left: -7%;
+  color: #1078B4;
+  font-size: 90%;
+  cursor: pointer;
+  margin-top:12%;
+  font-weight: 900;
+}
+#p{
+  width: 100%;
+  position: relative;
+  /* margin-top:25%; */
+}
+#te{
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif; 
+  margin-top:5%;
+}
+#pe{
+  color:#1078B4;
+  font-size: 80%;
+  cursor: pointer;
+  font-weight: 900;
+}
+#t{
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+#mv{
+  margin-top: 20%;
+}
+#mv1{
+  margin-top: -18%;
+}
+#mv2{
+  margin-top:42%;
+}
+#s{
+  padding-top:0%;
+}
+#cir4{
+  margin-top:8%;
+  font-size:90%;
+  text-align: center;
+  font-family: 'Source sans pro';
+}
+.want{
+  padding-top: 10%;
+  /* text-align: center; */
+}
+a:link{
+  color:#1078B4;
+}
+
+a:visited{
+  color:#1078B4;
+}
+a:hover{
+  color:#1078B4;
+}
+a:active{
+  color:#1078B4;
+}
+
+.bg-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+  
+  .bg-img .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .8;
+  background: #1C1D21;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("images/small size.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
